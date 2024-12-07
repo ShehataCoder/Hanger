@@ -1,0 +1,29 @@
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2_Content.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2_MarkupCompile.cache
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2_MarkupCompile.lref
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\test System 2.exe.config
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\test System 2.exe
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\test System 2.pdb
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\EntityFramework.dll
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\EntityFramework.xml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.g.resources
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test_System_2.Properties.Resources.resources
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test Sys.58989662.Up2Date
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.exe
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\test System 2.pdb
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window1.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window1.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window2.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window2.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window3.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window3.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window4.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window4.baml

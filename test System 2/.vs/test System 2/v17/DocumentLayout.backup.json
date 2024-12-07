@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\window3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|c:\\users\\hp\\desktop\\fooddlivery\\test system 2\\test system 2\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|c:\\users\\hp\\desktop\\fooddlivery\\test system 2\\test system 2\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|c:\\users\\hp\\desktop\\fooddlivery\\test system 2\\test system 2\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test system 2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\App.xaml",
+              "RelativeDocumentMoniker": "test System 2\\App.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\App.xaml",
+              "RelativeToolTip": "test System 2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-02T20:51:27.289Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window2.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window2.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window2.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window2.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T20:55:12.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Window4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window4.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window4.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window4.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window4.xaml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwEwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T20:14:17.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window4.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window4.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window4.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window4.xaml",
+              "RelativeToolTip": "test System 2\\Window4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T19:41:17.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "test System 2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAiwGcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:08:13.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window2.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window2.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window2.xaml",
+              "RelativeToolTip": "test System 2\\Window2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T19:07:14.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window1.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window1.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window1.xaml",
+              "RelativeToolTip": "test System 2\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T18:39:15.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window3.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window3.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window3.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window3.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:21:13.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Window3.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window3.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window3.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window3.xaml",
+              "RelativeToolTip": "test System 2\\Window3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T18:20:07.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "test System 2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\MainWindow.xaml",
+              "RelativeToolTip": "test System 2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T11:22:11.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\FoodDlivery\\test System 2\\test System 2\\Window1.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:51:08.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

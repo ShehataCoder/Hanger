@@ -1,0 +1,18 @@
+﻿<Window x:Class="test_System_2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_System_2"
+        mc:Ignorable="d"
+        Title="The List" Height="450" Width="275">
+    <Grid Margin="-12,-57,-26,-16" Background="#FF400000">
+        <Button Content="Add Dlivery" HorizontalAlignment="Left" Margin="153,98,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click_1"/>
+        <Button Content="Add Customer" HorizontalAlignment="Left" Margin="154,219,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click"/>
+        <Button Content="Add Order" HorizontalAlignment="Left" Margin="155,340,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click_2"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="32,60,0,0" VerticalAlignment="Top" Width="100" Source="/fast-delivery.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="37,184,0,0" VerticalAlignment="Top" Width="100" Source="/customer.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="38,316,0,0" VerticalAlignment="Top" Width="100" Source="/food.png"/>
+
+    </Grid>
+</Window>
