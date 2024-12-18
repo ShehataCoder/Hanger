@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|c:\\users\\hp\\desktop\\work\\test system 2\\test system 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|C:\\Users\\hp\\Desktop\\Work\\test System 2\\test system 2\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3F4B214-D3AE-4C2B-BDC2-02B57E4C800B}|test System 2\\test System 2.csproj|solutionrelative:test system 2\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window1.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window1.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowFcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T14:04:02.538Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window4.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window4.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window4.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window4.xaml.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwKcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:40:42.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "test System 2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAASwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:37:39.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "test System 2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\MainWindow.xaml",
+              "RelativeToolTip": "test System 2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:37:35.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Window3.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window3.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window3.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window3.xaml",
+              "RelativeToolTip": "test System 2\\Window3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:37:27.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Window4.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window4.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window4.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window4.xaml",
+              "RelativeToolTip": "test System 2\\Window4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:37:24.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window5.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window5.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window5.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window5.xaml",
+              "RelativeToolTip": "test System 2\\Window5.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:37:21.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window3.xaml.cs",
+              "RelativeDocumentMoniker": "test System 2\\Window3.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window3.xaml.cs",
+              "RelativeToolTip": "test System 2\\Window3.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAIAwwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:36:25.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window2.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window2.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window2.xaml",
+              "RelativeToolTip": "test System 2\\Window2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:36:15.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window1.xaml",
+              "RelativeDocumentMoniker": "test System 2\\Window1.xaml",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Work\\test System 2\\test System 2\\Window1.xaml",
+              "RelativeToolTip": "test System 2\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:36:13.387Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<Window x:Class="test_System_2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_System_2"
+        mc:Ignorable="d"
+        Title="The List" Height="450" Width="275">
+    <Grid Margin="-12,-57,-26,-16" Background="#FFB9D099">
+        <Button Content="Add Worker" HorizontalAlignment="Left" Margin="153,98,0,0" VerticalAlignment="Top" Background="#FF517919" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="Black" Height="32" Width="116" Click="Button_Click_1"/>
+        <Button Content="Add Customer" HorizontalAlignment="Left" Margin="158,342,0,0" VerticalAlignment="Top" Background="#FF517919" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FFB9D099" Height="32" Width="116" Click="Button_Click"/>
+        <Image HorizontalAlignment="Left" Height="94" Margin="32,66,0,0" VerticalAlignment="Top" Width="94" Source="/time_10211591.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="37,304,0,0" VerticalAlignment="Top" Width="100" Source="/customer.png"/>
+
+    </Grid>
+</Window>

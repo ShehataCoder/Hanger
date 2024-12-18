@@ -1,0 +1,34 @@
+﻿<Window x:Class="test_System_2.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_System_2"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Window.Resources>
+        <Color x:Key="SolidColorBrushColor1">#FF828080</Color>
+    </Window.Resources>
+    <Grid Background="#FFB9D099">
+
+        <Grid Margin="199,14,243,16" Background="White">
+            <Label Content="Register " HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Foreground="#FFB9D099" FontSize="20" FontWeight="Bold"/>
+            <TextBox x:Name="t1" HorizontalAlignment="Left" Margin="148,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" BorderBrush="#FF400000" Foreground="#FFB9D099"/>
+            <Label Content="Name" HorizontalAlignment="Left" Margin="65,125,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFB9D099" Background="White"/>
+            <Label Content="Password" HorizontalAlignment="Left" Margin="59,182,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFB9D099" Background="White"/>
+            <Label Content="Re password" HorizontalAlignment="Left" Margin="59,236,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFB9D099"/>
+            <Button Content="Create" HorizontalAlignment="Left" Margin="136,287,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FFB9D099" Foreground="White" Height="47" Width="110" FontWeight="Bold" FontSize="16" Click="Button_Click_1"/>
+            <Label Content="Do you already have an account ?" HorizontalAlignment="Left" Margin="41,342,0,0" VerticalAlignment="Top">
+                <Label.Foreground>
+                    <SolidColorBrush Color="{DynamicResource SolidColorBrushColor1}"/>
+                </Label.Foreground>
+            </Label>
+            <Button Content="Login up" HorizontalAlignment="Left" Margin="236,344,0,0" VerticalAlignment="Top" Foreground="#FFB9D099" BorderBrush="White" Background="White" FontWeight="Bold" Click="Button_Click"/>
+            <TextBox x:Name="t2" HorizontalAlignment="Left" Margin="148,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" BorderBrush="#FF400000" Foreground="#FFB9D099"/>
+            <TextBox x:Name="t3" HorizontalAlignment="Left" Margin="148,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" BorderBrush="#FF400000" Foreground="#FFB9D099"/>
+            <Button Content="x" HorizontalAlignment="Left" Margin="290,21,0,0" VerticalAlignment="Top" Click="Button_Click1" BorderBrush="White" Foreground="#FFB9D099" FontWeight="Bold" FontSize="24" Background="White"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

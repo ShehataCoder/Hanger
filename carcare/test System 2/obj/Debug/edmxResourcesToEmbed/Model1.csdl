@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FoodDliveryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="FoodDliveryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="users" EntityType="Self.user" />
+    <EntitySet Name="dliveries" EntityType="FoodDliveryModel.dlivery" />
+    <EntitySet Name="customers" EntityType="FoodDliveryModel.customer" />
+    <EntitySet Name="Orders" EntityType="FoodDliveryModel.Order" />
+  </EntityContainer>
+  <EntityType Name="dlivery">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Int32" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="id_order" />
+      <PropertyRef Name="id_customer" />
+      <PropertyRef Name="id_dlivery" />
+    </Key>
+    <Property Name="id_order" Type="Int32" Nullable="false" />
+    <Property Name="id_customer" Type="Int32" Nullable="false" />
+    <Property Name="id_dlivery" Type="Int32" Nullable="false" />
+    <Property Name="item" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Payment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Total" Type="Int32" />
+  </EntityType>
+</Schema>
