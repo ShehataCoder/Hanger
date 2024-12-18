@@ -18,5 +18,7 @@ namespace test_System_2
         public int id_customer { get; set; }
         public int id_dlivery { get; set; }
         public string item { get; set; }
+        public string Payment { get; set; }
+        public Nullable<int> Total { get; set; }
     }
 }

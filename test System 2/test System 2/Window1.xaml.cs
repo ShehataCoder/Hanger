@@ -52,7 +52,7 @@ namespace test_System_2
                         {
                             System.Windows.MessageBox.Show("Login Successfully!", "Information Message");
 
-                            Window2 mForm = new Window2();
+                            Window4 mForm = new Window4();
                             mForm.Show();
                             this.Hide();
                         }
@@ -78,5 +78,29 @@ namespace test_System_2
             }
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window5 mform = new Window5();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Window6 mForm = new Window6();
+            mForm.Show();
+            this.Hide();
+        }
+
+        private void username_TextChanged(object sender, TextChangedEventArgs e)
+        {
+           
+        }
+        
     }
 }

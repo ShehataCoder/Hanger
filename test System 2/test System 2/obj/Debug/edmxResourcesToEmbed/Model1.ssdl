@@ -28,6 +28,8 @@
     <Property Name="id_customer" Type="int" Nullable="false" />
     <Property Name="id_dlivery" Type="int" Nullable="false" />
     <Property Name="item" Type="varchar" MaxLength="500" />
+    <Property Name="Payment" Type="varchar" MaxLength="50" />
+    <Property Name="Total" Type="int" />
   </EntityType>
   <EntityType Name="users">
     <Key>

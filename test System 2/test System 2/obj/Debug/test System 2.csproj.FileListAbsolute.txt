@@ -27,3 +27,7 @@ C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window3.g.
 C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window3.baml
 C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window4.g.cs
 C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window4.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window5.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window5.baml
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window6.g.cs
+C:\Users\hp\Desktop\FoodDlivery\test System 2\test System 2\obj\Debug\Window6.baml

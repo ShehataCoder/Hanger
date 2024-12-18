@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Data.SqlClient;
 using System.Data;
 using System.Linq.Expressions;
+using System.Data.Entity.Core.Metadata.Edm;
 
 namespace test_System_2
 {
@@ -27,15 +28,20 @@ namespace test_System_2
         {
             InitializeComponent();
             loadGrid();
+            
         }
+       
 
 
 
         SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-8I5RMJS;Initial Catalog=FoodDlivery;Integrated Security=True;Encrypt=false");
+        string pay;
+        string tea, bur,fr,ic,co,order;
+        int total=0;
 
         public void loadGrid()
         {
-            SqlCommand cmd = new SqlCommand("select * From Orders ", conn);
+            SqlCommand cmd = new SqlCommand("select * From ord ", conn);
             DataTable dt = new DataTable();
             conn.Open();
             SqlDataReader sdr = cmd.ExecuteReader();
@@ -50,15 +56,15 @@ namespace test_System_2
             Id_order.Clear();
             Id_Dlivery.Clear();
             Id_costomer.Clear();
-            item.Clear();
+            
         }
 
 
         public bool isValid()
         {
-            if (Id_costomer.Text == string.Empty || Id_Dlivery.Text == string.Empty || Id_Dlivery.Text == string.Empty || item.Text == string.Empty)
+            if (Id_costomer.Text == string.Empty || Id_Dlivery.Text == string.Empty || Id_Dlivery.Text == string.Empty )
             {
-                MessageBox.Show("Name is Requred , Faild");
+                MessageBox.Show("this items are Requred , Faild");
                 return false;
             }
             return true;
@@ -70,12 +76,68 @@ namespace test_System_2
             {
                 if (isValid())
                 {
-                    SqlCommand cmd = new SqlCommand("INSERT INTO Orders VALUES (@id_order,@id_customer,@id_dlivery,@item)", conn);
-                    cmd.CommandType = CommandType.Text;
-                    cmd.Parameters.AddWithValue("@id_order", Id_order.Text);
-                    cmd.Parameters.AddWithValue("@id_customer", Id_Dlivery.Text);
-                    cmd.Parameters.AddWithValue("@id_dlivery", Id_costomer.Text);
-                    cmd.Parameters.AddWithValue("@item", item.Text);
+                    if(cach.IsChecked == true)
+                    {
+                         pay = "Cach";
+                    }
+                    else if(Wallet.IsChecked == true)
+                    {
+                        pay = "Wallet";
+                    }
+                    else if (visa.IsChecked == true)
+                    {
+                        pay = "Visa";
+                    }
+
+                    if(coco.IsChecked == true)
+                    {
+                        bur = "Burger";
+                        total +=70;
+                    }
+                    else
+                    {
+                        bur = "";
+                    }
+                    if(teas.IsChecked == true) 
+                    {
+                        tea = "Tea";
+                        total +=8;
+                    }
+                    else
+                    {
+                        tea = "";
+                    }
+                    if (ice.IsChecked == true)
+                    {
+                        ic = "iceCream";
+                        total +=20;
+                    }
+                    else
+                    {
+                        ic = "";
+                    }
+                    if (fries.IsChecked == true)
+                    {
+                        fr = "Frech Fries";
+                        total +=12;
+                    }
+                    else
+                    {
+                        fr = "";
+                    }
+                    if (cola.IsChecked == true)
+                    {
+                        co = "Cola";
+                        total +=10;
+                    }
+                    else
+                    {
+                        co = "";
+                    }
+                    order = co +" "+tea+" "+ic+" "+bur+" "+fr;
+                    string x = total + " $";
+                    string query = "INSERT INTO ord (Ncustomer,Ndlivery,IDdliery,item,Payment,Total) VALUES ( '" + Id_order.Text + "' ,'" + Id_costomer.Text + "' , '" + Id_Dlivery.Text +  "','" + order + "' , '" + pay + "' , '" + x + "' )";
+                    SqlCommand cmd = new SqlCommand( query , conn);
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
@@ -89,6 +151,10 @@ namespace test_System_2
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                conn.Close();
+            }
         }
 
         private void ClearBtn_Click3(object sender, RoutedEventArgs e)
@@ -99,7 +165,7 @@ namespace test_System_2
         private void DeletBtn_Click3(object sender, RoutedEventArgs e)
         {
             conn.Open();
-            SqlCommand cmd = new SqlCommand("DELETE FROM Orders WHERE id_order = " + Searc_id3.Text + " ", conn);
+            SqlCommand cmd = new SqlCommand("DELETE FROM ord WHERE IDdliery = " + Searc_id3.Text + " ", conn);
             try
             {
                 cmd.ExecuteNonQuery();
@@ -126,9 +192,24 @@ namespace test_System_2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window2 mForm = new Window2();
+            Window1 mForm = new Window1();
             mForm.Show();
             this.Hide();
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

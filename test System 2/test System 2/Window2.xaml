@@ -8,11 +8,9 @@
         Title="The List" Height="450" Width="275">
     <Grid Margin="-12,-57,-26,-16" Background="#FF400000">
         <Button Content="Add Dlivery" HorizontalAlignment="Left" Margin="153,98,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click_1"/>
-        <Button Content="Add Customer" HorizontalAlignment="Left" Margin="154,219,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click"/>
-        <Button Content="Add Order" HorizontalAlignment="Left" Margin="155,340,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click_2"/>
+        <Button Content="Add Customer" HorizontalAlignment="Left" Margin="158,342,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontSize="14" FontWeight="Bold" Foreground="White" BorderBrush="#FF400000" Height="32" Width="116" Click="Button_Click"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="32,60,0,0" VerticalAlignment="Top" Width="100" Source="/fast-delivery.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="37,184,0,0" VerticalAlignment="Top" Width="100" Source="/customer.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="38,316,0,0" VerticalAlignment="Top" Width="100" Source="/food.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="37,304,0,0" VerticalAlignment="Top" Width="100" Source="/customer.png"/>
 
     </Grid>
 </Window>

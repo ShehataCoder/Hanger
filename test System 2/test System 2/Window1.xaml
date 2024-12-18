@@ -9,11 +9,15 @@
     <Grid Background="#FF400000">
         <Grid Margin="199,14,243,16" Background="White">
             <Label Content="L O G I N" HorizontalAlignment="Center" Margin="0,85,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="#FF400000" FontWeight="Bold" FontSize="20"/>
-            <TextBox x:Name="password" HorizontalAlignment="Left" Margin="140,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"/>
-            <TextBox x:Name="username" HorizontalAlignment="Left" Margin="141,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-            <Button Content="Login" HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF400000" Foreground="White" Height="47" Width="110" FontWeight="Bold" FontSize="16" Click="Button_Click_1"/>
-            <Label Content="Admin" HorizontalAlignment="Left" Margin="73,182,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF400000" FontSize="14"/>
+            <TextBox x:Name="password" HorizontalAlignment="Left" Margin="140,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" BorderBrush="#FF400000"/>
+            <TextBox x:Name="username" HorizontalAlignment="Left" Margin="141,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" BorderBrush="#FF400000" TextChanged="username_TextChanged"/>
+            <Button Content="Login" HorizontalAlignment="Left" Margin="136,287,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF400000" Foreground="White" Height="47" Width="110" FontWeight="Bold" FontSize="16" Click="Button_Click_1"/>
+            <Label Content="Admin" HorizontalAlignment="Left" Margin="68,182,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF400000" FontSize="14"/>
             <Label Content="Password" HorizontalAlignment="Left" Margin="66,226,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF400000" FontSize="14"/>
+            <Button Content="x" HorizontalAlignment="Left" Margin="290,21,0,0" VerticalAlignment="Top" Click="Button_Click" BorderBrush="White" Foreground="#FF400000" FontWeight="Bold" FontSize="24" Background="White"/>
+            <Label Content="Don't have an account ? " HorizontalAlignment="Left" Margin="18,347,0,0" VerticalAlignment="Top" Foreground="#FF6D6565"/>
+            <Button Content="Register here" HorizontalAlignment="Left" Margin="154,351,0,0" VerticalAlignment="Top" BorderBrush="White" Background="White" Foreground="#FF400000" FontWeight="Bold" Click="Button_Click_2"/>
+            <Button Content="Login As Admin" HorizontalAlignment="Left" Margin="249,351,0,0" VerticalAlignment="Top" Background="White" BorderBrush="White" Foreground="#FF400000" Click="Button_Click_3"/>
         </Grid>
 
     </Grid>

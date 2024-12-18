@@ -33,6 +33,8 @@
     <EntitySetMapping Name="Orders">
       <EntityTypeMapping TypeName="FoodDliveryModel.Order">
         <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
           <ScalarProperty Name="item" ColumnName="item" />
           <ScalarProperty Name="id_dlivery" ColumnName="id_dlivery" />
           <ScalarProperty Name="id_customer" ColumnName="id_customer" />

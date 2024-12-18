@@ -5,28 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test_System_2"
         mc:Ignorable="d"
-        Title="Add Order" Height="450" Width="800">
+        Title="Add Order" Height="509" Width="800">
     <Grid>
-        <Grid Margin="0,0,511,0" Background="#FF400000">
-            <TextBox x:Name="Id_order" HorizontalAlignment="Left" Margin="111,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <Button x:Name="AddBtn3" Content="Add" HorizontalAlignment="Left" Margin="50,228,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="AddBtn_Click3"/>
-            <Button x:Name="DeletBtn3" Content="Delet" HorizontalAlignment="Left" Margin="102,348,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="DeletBtn_Click3"/>
-            <Button x:Name="ClearBtn3" Content="Clear" HorizontalAlignment="Left" Margin="167,228,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="ClearBtn_Click3" RenderTransformOrigin="0.052,-0.449"/>
+        <Grid Margin="0,0,494,0" Background="#FF400000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="415*"/>
+                <RowDefinition Height="78*"/>
+            </Grid.RowDefinitions>
+            <Image HorizontalAlignment="Left" Height="36" Margin="16,14,0,0" VerticalAlignment="Top" Width="50" Source="/arrow.png" RenderTransformOrigin="-1.68,1.779" Grid.Row="1"/>
+
+            <TextBox x:Name="Id_order" HorizontalAlignment="Left" Margin="137,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="AddBtn3" Content="Pay" HorizontalAlignment="Left" Margin="50,334,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="AddBtn_Click3"/>
+            <Button x:Name="DeletBtn3" Content="Delet" HorizontalAlignment="Left" Margin="102,406,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="DeletBtn_Click3" Grid.RowSpan="2"/>
+            <Button x:Name="ClearBtn3" Content="Clear" HorizontalAlignment="Left" Margin="167,334,0,0" VerticalAlignment="Top" Background="#FFDA9227" FontWeight="Bold" Foreground="White" Width="58" Click="ClearBtn_Click3" RenderTransformOrigin="0.052,-0.449"/>
             <Label Content="Add Orders" HorizontalAlignment="Left" Margin="66,13,0,0" VerticalAlignment="Top" Width="196" Foreground="White" FontWeight="Bold" FontSize="20"/>
-            <TextBox x:Name="Searc_id3" HorizontalAlignment="Left" Margin="131,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <Label Content="ID Order " HorizontalAlignment="Left" Margin="16,57,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
-            <Label Content="Search With ID" HorizontalAlignment="Left" Margin="16,295,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="Searc_id3" HorizontalAlignment="Left" Margin="131,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Customer Name" HorizontalAlignment="Left" Margin="17,57,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
+            <Label Content="Search With ID" HorizontalAlignment="Left" Margin="16,367,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
             <Image HorizontalAlignment="Left" Height="43" Margin="17,9,0,0" VerticalAlignment="Top" Width="62" Source="/food.png"/>
-            <Image HorizontalAlignment="Left" Height="36" Margin="18,360,0,0" VerticalAlignment="Top" Width="50" Source="/arrow.png" RenderTransformOrigin="-1.68,1.779"/>
-            <Button Content="Back" HorizontalAlignment="Left" Margin="35,368,0,0" VerticalAlignment="Top" Background="#FF400000" BorderBrush="#FF400000" Click="Button_Click" FontWeight="Bold"/>
-            <TextBox x:Name="Id_costomer" HorizontalAlignment="Left" Margin="110,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <Label Content="ID Customer" HorizontalAlignment="Left" Margin="15,96,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
-            <TextBox x:Name="Id_Dlivery" HorizontalAlignment="Left" Margin="111,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <Label Content="ID Dlivery" HorizontalAlignment="Left" Margin="16,141,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
-            <TextBox x:Name="item" HorizontalAlignment="Left" Margin="112,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-            <Label Content="Items" HorizontalAlignment="Left" Margin="20,184,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Back" HorizontalAlignment="Left" Margin="35,21,0,0" VerticalAlignment="Top" Background="#FF400000" BorderBrush="#FF400000" Click="Button_Click" FontWeight="Bold" Grid.Row="1"/>
+            <TextBox x:Name="Id_costomer" HorizontalAlignment="Left" Margin="136,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Dlivery Name" HorizontalAlignment="Left" Margin="15,96,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="Id_Dlivery" HorizontalAlignment="Left" Margin="136,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="ID Dlivery" HorizontalAlignment="Left" Margin="14,141,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="14"/>
+            <RadioButton x:Name="cach" Content="Cach" HorizontalAlignment="Left" Margin="119,287,0,0" VerticalAlignment="Top" Background="White" Foreground="White" FontWeight="Bold"/>
+            <RadioButton x:Name="visa" Content="Visa" HorizontalAlignment="Left" Margin="237,287,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold"/>
+            <RadioButton x:Name="Wallet" Content="Wallet" HorizontalAlignment="Left" Margin="170,287,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Foreground="White" FontWeight="Bold"/>
+            <Label Content="Payment With:" HorizontalAlignment="Left" Margin="8,280,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold"/>
+            <CheckBox x:Name="teas" Content="Tea" HorizontalAlignment="Left" Margin="58,183,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" FontWeight="Bold"/>
+            <CheckBox x:Name="coco" Content="Burger" HorizontalAlignment="Left" Margin="16,222,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold"/>
+            <Label Content="Items :" HorizontalAlignment="Left" Margin="8,177,0,0" VerticalAlignment="Top" Background="#FF400000" Foreground="White" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="57" Margin="81,160,0,0" VerticalAlignment="Top" Width="75" Source="/rb_9599.png"/>
+            <Image HorizontalAlignment="Left" Height="52" Margin="70,204,0,0" VerticalAlignment="Top" Width="43" Source="/rb_5539.png"/>
+            <CheckBox x:Name="cola" Content="Cola" HorizontalAlignment="Left" Margin="134,183,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="47" Margin="168,163,0,0" VerticalAlignment="Top" Width="40" Source="/rb_20924.png"/>
+            <CheckBox x:Name="fries" Content="Fries" HorizontalAlignment="Left" Margin="128,221,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" FontWeight="Bold" Checked="CheckBox_Checked"/>
+            <Image HorizontalAlignment="Left" Height="44" Margin="173,206,0,0" VerticalAlignment="Top" Width="41" Source="/rb_2149484229.png"/>
+            <CheckBox x:Name="ice" Content=" Ice Cream" HorizontalAlignment="Left" Margin="193,0,0,0" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
+
+            <Image HorizontalAlignment="Left" Height="35" Margin="269,197,0,0" VerticalAlignment="Top" Width="27" Source="/ice-cream_6191542.png"/>
+            <Grid Margin="1,251,3,160" Background="White"/>
+            <Grid Margin="1,364,3,47" Background="White"/>
+            <Image HorizontalAlignment="Left" Height="100" Margin="184,203,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.25"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="57" Margin="81,160,0,0" VerticalAlignment="Top" Width="75" Source="/rb_9599.png"/>
         </Grid>
-        <DataGrid x:Name="datagrid3" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="287,0,4,0" SelectionChanged="DataGrid_SelectionChanged_3"/>
+        <DataGrid x:Name="datagrid3" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="305,0,-1,163" SelectionChanged="DataGrid_SelectionChanged_3"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="40,-65,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="87" Margin="395,405,0,0" VerticalAlignment="Top" Width="75" Source="/rb_5539.png"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="589,415,0,0" VerticalAlignment="Top" Width="68" Source="/rb_2149484229.png"/>
+        <Image HorizontalAlignment="Left" Height="79" Margin="547,335,0,0" VerticalAlignment="Top" Width="77" Source="/rb_20924.png"/>
+        <Image HorizontalAlignment="Left" Height="46" Margin="632,377,0,0" VerticalAlignment="Top" Width="58" Source="/ice-cream_6191542.png"/>
+        <Image HorizontalAlignment="Left" Height="89" Margin="368,333,0,0" VerticalAlignment="Top" Width="148" Source="/rb_9599.png"/>
+
+        <Grid Margin="309,330,0,0">
+            <Label Content="Tea      8 EGP" HorizontalAlignment="Left" Margin="6,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="Burger    70 EGP" HorizontalAlignment="Left" Margin="2,107,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="Cola    10 EGP" HorizontalAlignment="Left" Margin="173,41,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="&#xA;&#xA;Frach Fries   12 EGP" HorizontalAlignment="Left" Margin="162,76,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="ice cream   20 EGP" HorizontalAlignment="Left" Margin="341,82,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        </Grid>
+        <Ellipse HorizontalAlignment="Left" Height="82" Margin="723,332,0,0" Stroke="Black" VerticalAlignment="Top" Width="143" RenderTransformOrigin="0.517,0.683" Fill="#FF400000"/>
+        <Label Content="Menu" HorizontalAlignment="Left" Margin="746,361,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.557,0.361"/>
     </Grid>
+
 </Window>

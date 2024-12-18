@@ -33,6 +33,8 @@
           <Property Name="id_customer" Type="int" Nullable="false" />
           <Property Name="id_dlivery" Type="int" Nullable="false" />
           <Property Name="item" Type="varchar" MaxLength="500" />
+          <Property Name="Payment" Type="varchar" MaxLength="50" />
+          <Property Name="Total" Type="int" />
         </EntityType>
         <EntityType Name="users">
           <Key>
@@ -94,6 +96,8 @@
           <Property Name="id_customer" Type="Int32" Nullable="false" />
           <Property Name="id_dlivery" Type="Int32" Nullable="false" />
           <Property Name="item" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Payment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Total" Type="Int32" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -133,6 +137,8 @@
           <EntitySetMapping Name="Orders">
             <EntityTypeMapping TypeName="FoodDliveryModel.Order">
               <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="Payment" ColumnName="Payment" />
                 <ScalarProperty Name="item" ColumnName="item" />
                 <ScalarProperty Name="id_dlivery" ColumnName="id_dlivery" />
                 <ScalarProperty Name="id_customer" ColumnName="id_customer" />
